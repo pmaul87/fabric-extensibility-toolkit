@@ -21,6 +21,7 @@
     "HelloWorldItemEditor_Definition_Message_Label": "Item Definition",
     "HelloWorldItemEditorEmpty_Message": "Let's say hello to {{itemName}}!",
     "HelloWorldItemEditorEmpty_Button": "Save item",
+<<<<<<< HEAD
 
     "InsightWorkbenchItemEditor_Loading": "Loading Insight Workbench...",
 
@@ -366,5 +367,22 @@
     "InsightWorkbench_Lakehouse_Usage_Confidence": "Confidence",
     "InsightWorkbench_Lakehouse_Confidence_Exact": "Exact",
     "InsightWorkbench_Lakehouse_Confidence_Inferred": "Inferred",
-    "InsightWorkbench_Lakehouse_Diagnostics_Title": "Partial results \u2014 diagnostics"
+    "InsightWorkbench_Lakehouse_Diagnostics_Title": "Partial results — diagnostics",
+
+    "LineageExtractorItemEditor_Title": "Lineage Extractor",
+    "LineageExtractorItemEditor_Loading": "Loading...",
+    "LineageExtractorItemEditor_Ribbon_Extract_Label": "Extract Lineage",
+    "LineageExtractorItemEditor_Ribbon_Extract_Tooltip": "Start lineage extraction from configured workspaces",
+    "LineageExtractorItemEditorEmpty_Welcome_Title": "Welcome to Lineage Extractor",
+    "LineageExtractorItemEditorEmpty_Welcome_Message": "Configure your extraction settings to get started",
+    "LineageExtractorItemEditorEmpty_Task1_Title": "Configure extraction settings",
+    "LineageExtractorItemEditorEmpty_Task1_Description": "Select workspaces and artifact types to extract",
+    "LineageExtractorItemEditorEmpty_Task2_Title": "Select target lakehouse",
+    "LineageExtractorItemEditorEmpty_Task2_Description": "Choose where to store lineage data",
+    "LineageExtractorItemEditorEmpty_Task3_Title": "Run your first extraction",
+    "LineageExtractorItemEditorEmpty_Task3_Description": "Click Extract Lineage to begin",
+    "LineageExtractorItemEditorEmpty_GetStarted_Button": "Get Started",
+    "LineageExtractorItemDefaultView_Placeholder_Title": "Lineage Extractor Configuration",
+    "LineageExtractorItemDefaultView_Placeholder_Message": "Phase 1: Configuration UI and extraction logic will be implemented here.",
+    "LineageExtractorItemDefaultView_Placeholder_Features": "Planned Features:\n• Workspace and artifact selection\n• Lakehouse configuration\n• Semantic link integration\n• Extraction progress tracking\n• Lineage graph visualization"
 }

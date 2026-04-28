@@ -4,6 +4,7 @@ import { History } from "history";
 import { WorkloadClientAPI } from "@ms-fabric/workload-client";
 import { HelloWorldItemEditor} from "./items/HelloWorldItem";
 import { InsightWorkbenchItemEditor } from "./items/InsightWorkbenchItem";
+import { LineageExtractorItemEditor } from "./items/LineageExtractorItem";
 import { ConditionalPlaygroundRoutes } from "./playground/ConditionalPlaygroundRoutes";
 
 /*
@@ -43,6 +44,12 @@ export function App({ history, workloadClient }: AppProps) {
             <Route path="/InsightWorkbenchItem-editor/:itemObjectId">
                 <InsightWorkbenchItemEditor
                     workloadClient={workloadClient} data-testid="InsightWorkbenchItem-editor" />
+            </Route>
+
+            {/* Routings for the LineageExtractor Item Editor */}
+            <Route path="/LineageExtractorItem-editor/:itemObjectId">
+                <LineageExtractorItemEditor
+                    workloadClient={workloadClient} data-testid="LineageExtractorItem-editor" />
             </Route>
 
             {/* Conditionally loaded playground routes (only in development) */}
